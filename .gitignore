@@ -1,0 +1,21 @@
+# Java & Gradle
+/build/
+.gradle/
+*.log
+*.class
+*.jar
+*.war
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+
+# 🔒 민감 정보
+src/main/resources/application.properties
