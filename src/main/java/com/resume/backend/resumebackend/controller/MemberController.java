@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/Member")
-//@CrossOrigin(origins = "http://localhost:5173") // React 개발 서버 주소
+@CrossOrigin(origins = "*")
 public class MemberController {
 
     private final MemberService MemberService;

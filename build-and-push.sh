@@ -3,7 +3,7 @@
 # ❗️ 사용자 설정
 DOCKER_USERNAME="sjzzang"
 IMAGE_NAME="resume-backend"
-IMAGE_TAG="1.0"
+IMAGE_TAG="1.1"
 
 # 1. JAR 빌드
 #echo "🔧 빌드 중..."
