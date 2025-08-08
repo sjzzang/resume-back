@@ -20,7 +20,7 @@ public class CertificationController {
         this.CertificationService = CertificationService;
     }
 
-    @GetMapping
+    @GetMapping("/Certifications")
     public List<Certification> getCertification() {
         return CertificationService.getCertifications();
     }
